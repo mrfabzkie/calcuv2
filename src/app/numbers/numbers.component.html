@@ -1,0 +1,11 @@
+<div class="container">
+    <h4><label for="first">First Number</label></h4>
+    <input (input)="getfirst(first.value)" type="text" #first />
+    <h4><label for="second">Second Number</label></h4>
+    <input (input)="getsecond(second.value)" type="text" #second />
+    <br>
+    <app-operation [firstNum]="firstNum" [secondNum]="secondNum"> </app-operation>
+    <br>
+</div>
+
+    

@@ -1,0 +1,11 @@
+.prompt {
+    border: none;
+    text-align: center;
+  }
+  .container {
+    margin-top: 8px;
+  }
+  h4 {
+    padding: 12px;
+    color: rgb(255, 255, 255);
+  }
